@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: linear-gradient(to right ,var(--blue),var(--green));
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+
+header .container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo{
+    font-size: 40px;
+    font-family: "Arial Black";
+    margin-left: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(179, 180, 245);
+    margin-right: 20px;
+    transition: .2s ease all;
+
+}
+
+header nav a:hover{
+    color: rgb(240, 178, 8);
+    cursor: pointer;
+}
+
+
+
+.principal-game{
+
+background:  linear-gradient(rgba(0,0,0,0.90), rgba(0,0,0,0.50)100%)  ,url(../img/banner.jpg);
+height: 600px;
+background-size: cover;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+.titulo{
+   margin-top: 10%;
+   font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+
+.sinopse{
+    font-size: 20px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+}
+
+.botao{
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.50);
+    color: white;
+    padding: 15px 30px ;
+    cursor: pointer;
+    transition: .5s ease all;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-principal{
+    margin-top: 5px;
+
+
+
+}
+
